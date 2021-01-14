@@ -229,7 +229,7 @@ static void RecursivePrint(Node *currentNode, char *word, TraverseOrder order)
 	// print word if normal order
 	if (currentNode->_count != 0 && order == NORMAL_ORDER)
 	{
-		printf("%s\t%lu\n", word, currentNode->_count);
+		printf("%s %lu\n", word, currentNode->_count);
 	}
 
 	Node *child;
@@ -253,7 +253,7 @@ static void RecursivePrint(Node *currentNode, char *word, TraverseOrder order)
 	// print word if reverse order
 	if (currentNode->_count != 0 && order == REVERSE_ORDER)
 	{
-		printf("%s\t%lu\n", word, currentNode->_count);
+		printf("%s %lu\n", word, currentNode->_count);
 	}
 
 	//remove added letter from word (in order to travel back in the trie)

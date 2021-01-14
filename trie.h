@@ -1,8 +1,3 @@
-/*
- * EX ______. Created by: __________. Date: 1/16/2020
- *
- */
-
 #ifndef TRIE_H
 #define TRIE_H
 
