@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 	char c;
 	while((c = (char)getchar()) != EOF )
 	{
-		if (c == '\n')
+		if (c =='\r'||c== '\t'||c== '\n')
 			c = ' ';
 		userStr[index++] = (char)c;
 		if(index >= userStrLength)
